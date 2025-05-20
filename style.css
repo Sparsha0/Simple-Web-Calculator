@@ -1,0 +1,263 @@
+.main-container{
+    height: 700px;
+    width:400px;
+    border:5px solid black;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+body{
+    display:flex;
+    justify-content:center;
+
+
+}
+.arrow{
+    display:flex;
+    justify-content: center;
+    padding:2px;
+    margin:2px;
+}
+.right-ele{
+    display:flex;
+    justify-content: flex-end;
+    margin:2px;
+    gap:2px;
+}
+.container1{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    background-color: grey;
+}
+
+.container2{
+    height:150px;
+    font-size:50px;
+    border-bottom:solid black;
+    border-top:solid black;
+    display: flex;
+    justify-content: flex-end;
+    align-content: end;
+    border-radius: 2px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+   
+}
+
+.container3{
+    display:grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px 116px;
+    background: linear-gradient(135deg, #3a3a3a, #6e6e6e);
+
+}
+
+.cancel{
+    grid-column: 1/2;
+    grid-row: 1 /2 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color:white;
+    background-color: grey;
+
+}
+
+.mod{
+    grid-row:1 / 2 ;
+    grid-column: 2/ 3 ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color:white;
+    background-color: grey;
+
+}
+
+.back{
+    grid-row: 1/2  ;
+    grid-column: 3/4  ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color:white;
+    background-color: grey
+
+}
+
+.divi{
+    grid-row: 1/ 2 ;
+    grid-column: 4/5  ;
+        display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color:white;
+    background-color: grey;
+ 
+}
+.seven{
+    grid-row: 2/3  ;
+    grid-column: 1/2  ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.eight{
+    grid-row: 2/3  ;
+    grid-column: 2/3  ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.nine{
+    grid-row: 2/ 3 ;
+    grid-column: 3/4  ;
+        display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.mul{
+    grid-row: 2/3  ;
+    grid-column: 4/5  ;
+        display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color:white;
+    background-color: grey;
+
+}
+
+.four{
+    grid-row: 3/4  ;
+    grid-column: 1/2  ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+.five{
+    grid-row: 3/4  ;
+    grid-column: 2/3  ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.six{
+    grid-row: 3/4  ;
+    grid-column: 3/4  ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.minus{
+    grid-row: 3/4  ;
+    grid-column: 4/5  ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color:white;
+    background-color: grey;
+  
+}
+
+.one{
+    grid-row: 4/5  ;
+    grid-column: 1/2  ;
+        display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.two{
+    grid-row: 4/5  ;
+    grid-column: 2/3  ;
+        display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.three{
+    grid-row: 4/5  ;
+    grid-column: 3/4  ;
+        display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.plus{
+    grid-row: 4/5  ;
+    grid-column: 4/5  ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color:white;background-color: grey;
+ 
+}
+
+.zerozero{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.zero{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.dot{
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.equal{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    background-color: orange;
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
+
+button:hover{
+    opacity: 0.5;
+    
+}
+
+input{
+    font-size: 32px;
+}
+  
+

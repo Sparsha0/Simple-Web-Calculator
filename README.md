@@ -24,6 +24,6 @@ A sleek and responsive calculator built using **HTML, CSS, and JavaScript**. Thi
 - **JavaScript** – Logic and DOM manipulation
 
 ✨ Future Enhancements
-  Keyboard support
-  Light/Dark theme toggle
-  Scientific calculator functions (e.g., sin, cos, tan, log)
+ - Keyboard support
+ - Light/Dark theme toggle
+ - Scientific calculator functions (e.g., sin, cos, tan, log)
